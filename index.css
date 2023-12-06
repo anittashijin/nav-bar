@@ -1,0 +1,36 @@
+
+.pic{
+    opacity:95%;
+}
+.b1,.b2{
+    border-radius: 30px;
+    background-color: purple;
+    padding: 10px;
+    color: white;
+}
+
+.b2:hover{
+    background-color: rgb(216, 44, 222);
+}
+
+.b1:hover{
+    background-color: rgb(216, 44, 222);
+}
+a:hover{
+    background-color: rgb(150, 44, 150);
+}
+@media(max-width:580px)
+{
+    .he1{
+        font-size:21px;
+    }
+    .para1{
+        font-size: 13px;
+    }
+    .b1,.b2{
+        padding: 3px;
+    }
+    .headpara{
+        padding-left: 0px;
+    }
+}
