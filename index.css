@@ -55,6 +55,9 @@
 
 
 }
+.firstbar{
+    background-color: purple;
+}
 
 
 @media(max-width:580px)
