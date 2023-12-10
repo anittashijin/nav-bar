@@ -14,14 +14,14 @@
   <style>
     .pic {
       width: 100%;
-      height: 500px;
+      height: 600px;
     }
   </style>
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid me-auto">
       <a class="navbar-brand ms-5" href="#"><img class="w-75 ms-5" src="./images/logo.jpg" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -31,7 +31,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
           <li class="nav-item">
-            <a class="nav-link active fs-5" aria-current="page" href="#" style="hover-purple">Home</a>
+            <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fs-5 text-black" href="#">Course</a>
@@ -51,8 +51,8 @@
       </div>
     </div>
   </nav>
-  <div id="carouselExampleDark" class="carousel carousel-dark slide">
-    <div class="carousel-indicators">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5 ">
+    <div class="carousel-indicators ">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     </div>
@@ -69,6 +69,7 @@
           <button class="b1">View Courses</button>
         </div>
       </div>
+    </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img class="pic" src="./images/luminar img2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption text-start top-0 mt-5">
@@ -92,6 +93,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
       view more
@@ -132,15 +134,15 @@
     </div>
   </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-8">
         <h1 class=" hp ms-1 mt-5">Luminar Technolab Pvt Ltd</h1>
         <h4 class="hp ms-1">CIN: U80220KL2021PTC071578</h4>
         <p class="ms-1">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing advanced level software training to Students and by helping them to get placed in IT companies. We are a team of IT professionals who have experience in IT sector for more than 15 plus years. Our fresher’s career foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python Training, Software Testing Training & Selenium Training in Cochin, Kerala are designed in such a way to match with the current industry requirements. Our Vision is to provide 100% placements to students those who enroll with us for our specialized courses.</p>
-        <button class="ms-5 bt1 w-25" type="button" class="" data-bs-dismiss="modal">Learn more</button>
+        <button class="ms-5 b2" type="button" class="" data-bs-dismiss="modal">Learn more</button>
 
       </div>
-      <div class="col-md-6">
-        <img  class="ms-2" src="./images/girl.jpg" alt="">
+      <div class="col-lg-4">
+        <img  class="img2 ms-2" src="./images/girl.jpg" alt="">
       </div>
     </div>
 </body>
